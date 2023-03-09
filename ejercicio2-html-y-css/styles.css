@@ -18,11 +18,25 @@ form {
   color: white;
   gap: 5px;
   font-family: sans-serif;
-  width: 300px;
+  width: 30%;
   height: 50%;
-
   margin-top: 50px;
 }
+
+/*BONUS*/
+@media (max-width: 500px) {
+  form {
+    width: 100%;
+  }
+}
+
+@media (min-width: 501px) {
+  form {
+    width: 300px;
+  }
+}
+/*BONUS*/
+
 .button {
   display: flex;
   justify-content: end;
